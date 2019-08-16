@@ -3,7 +3,8 @@ def prime?(int)
    return false 
    
  else
-  (2..int-1).to_a.all? {|num| int % num != 0}
+  (2..int-1).to_a.all? do 
+    |num| int % num != 0}
   return true 
   end
 end
