@@ -3,7 +3,7 @@ def prime?(int)
    return false 
    
   else
-    (2..num).to_a.all?
+    (2..num).to_a.all? {
  end
  end
   
