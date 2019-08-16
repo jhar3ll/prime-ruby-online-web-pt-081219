@@ -6,5 +6,5 @@ def prime?(int)
     (2..int).to_a.all? {|num| int % num != 0}
     return true 
  end
- end
-  
+end
+end 
