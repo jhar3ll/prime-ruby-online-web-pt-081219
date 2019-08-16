@@ -1,3 +1,5 @@
 def prime?(int)
-  (1..100)to_a 
+ int_arr =  (1..100).to_a 
+ puts int_arr
+ end
   
